@@ -1,0 +1,45 @@
+.header-name {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+.header-name span {
+    font-size: 31px;
+}
+
+.taskform {
+    padding: 90px 0;
+}
+
+.taskform .user-input {
+    margin-bottom: 25px;
+}
+
+.taskform .user-input:focus {
+    box-shadow: none;
+    border-color: black;
+}
+
+.btn:focus-visible {
+    box-shadow: none;
+}
+
+.todo-list {
+    margin-top: 20px;
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.task.completed .checkbox-user {
+    text-decoration: line-through;
+    color: #aaa;
+}
+
+.task input[type='checkbox'] {
+    margin-right: 8px;
+}
